@@ -9,6 +9,7 @@
         <atom:link href="https://null102.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
 	
 	
+<<<<<<< HEAD
 	<item>
 		<title>近日学习心得</title>
 		<link>https://null102.github.io/post/%E8%BF%91%E6%97%A5%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/</link>
@@ -35,5 +36,7 @@
 </description>
 	</item>
 	
+=======
+>>>>>>> remotes/origin/main
 	</channel>
 </rss>

@@ -5,11 +5,15 @@
 	<description>Recent content on null102不开悟场域</description>
 	<generator>Hugo -- gohugo.io</generator>
 	<language>en-us</language>
+<<<<<<< HEAD
 	<lastBuildDate>Tue, 12 Mar 2024 23:26:33 -0700</lastBuildDate>
+=======
+>>>>>>> remotes/origin/main
     
         <atom:link href="https://null102.github.io/index.xml" rel="self" type="application/rss+xml" />
 	
 	
+<<<<<<< HEAD
 	<item>
 		<title>近日学习心得</title>
 		<link>https://null102.github.io/post/%E8%BF%91%E6%97%A5%E5%AD%A6%E4%B9%A0%E5%BF%83%E5%BE%97/</link>
@@ -36,5 +40,7 @@
 </description>
 	</item>
 	
+=======
+>>>>>>> remotes/origin/main
 	</channel>
 </rss>

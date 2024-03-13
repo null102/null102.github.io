@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<<<<<<< HEAD
   
   <url>
     <loc>https://null102.github.io/</loc>
@@ -25,4 +26,13 @@
     <loc>https://null102.github.io/tags/</loc>
   </url>
   
+=======
+  <url>
+    <loc>https://null102.github.io/categories/</loc>
+  </url><url>
+    <loc>https://null102.github.io/</loc>
+  </url><url>
+    <loc>https://null102.github.io/tags/</loc>
+  </url>
+>>>>>>> remotes/origin/main
 </urlset>
