@@ -238,3 +238,38 @@ footer a { color: var(--color-text); }
 .footer-left, .footer-center, .footer-right {
   display: flex; gap: 0.6em; align-items: center;
 }
+
+/* Mobile breakpoint: stack sidebar above article, drop the float layout.
+   768px catches phones in portrait and small tablets; desktop rules above
+   stay untouched. */
+@media (max-width: 768px) {
+  :root {
+    --font-body:    100%;
+    --font-nav:     1.2em;
+    --font-banner:  1.4em;
+    --sidebar-width: auto;
+  }
+  header nav { flex-wrap: wrap; padding: 0.25ex 0.6em; }
+  .top-nav a { margin-left: 0; margin-right: 0.6em; }
+  header h1 { padding-left: 2mm; }
+
+  #side-bar {
+    width: auto;
+    float: none;
+    clear: none;
+    border-right: none;
+    border-bottom: 1px solid var(--color-border);
+  }
+  article {
+    max-width: 100%;
+    margin: 0;
+    border-left: none;
+    padding: 0.5mm 3mm 5mm 3mm;
+  }
+  article p { margin: 1em 0; }
+  article pre { margin-left: 0; }
+  article blockquote { margin: 1em 0.5em; padding-left: 0.6em; }
+  article table { margin: 1em 0; display: block; overflow-x: auto; }
+
+  .site-footer { flex-wrap: wrap; gap: 0.4em; }
+}
