@@ -17,6 +17,9 @@
   --font-h1:      145.5%;
   --font-h2:      115.5%;
   --font-h3:      105%;
+  --font-h4:      100%;
+  --font-h5:      95%;
+  --font-h6:      90%;
   --font-pre:     1.05em;
   --font-code:    0.95em;
   --font-footer:  0.95em;
@@ -174,6 +177,14 @@ article h3 {
   font-weight: bold;
   margin: 1.2em 0 0.3em 0;
 }
+article h4, article h5, article h6 {
+  color: var(--color-text);
+  font-weight: bold;
+  margin: 1em 0 0.3em 0;
+}
+article h4 { font-size: var(--font-h4); }
+article h5 { font-size: var(--font-h5); }
+article h6 { font-size: var(--font-h6); font-style: italic; }
 article p { margin: 1em 1ex; }
 article ul, article ol { margin-left: 1ex; }
 article pre {
